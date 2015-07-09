@@ -2,7 +2,6 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
- <script type="text/javascript" src="phonegap.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!--
 This is an example that shows how to create an application that uses
@@ -61,7 +60,7 @@ scalable=no" />
 <!-- include the next line to use jquery functions in your application
 you must download this and include the directory your html file is in
 -->
-        <script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
+        
  
 <!-- main scripts used in this example -->
  <script type="text/javascript" charset="utf-8">
@@ -88,7 +87,7 @@ function successCallBack() {
 function nullHandler(){};
  
 // called when the application loads
-function onBodyLoad(){
+function onBodyLoad1(){
  
 // This alert is used to make sure the application is loaded correctly
 // you can comment this out once you have the application working
@@ -189,7 +188,7 @@ the database
  
 </script>
 </head>
-<body onload="onBodyLoad()">
+<body onload="onBodyLoad1()">
 <h1>WebSQL</h1>
 <input id="txFirstName" type="text" placeholder="FirstName">
 <input id="txLastName" type="text" placeholder="Last Name">
